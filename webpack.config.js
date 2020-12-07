@@ -11,13 +11,17 @@ const filename = ext => isDev ? `bundle.${ext}` : `bundle.[hash].${ext}`
 
 
 
+
 console.log('is prod: ', isProd);
 console.log('is Dev: ', isDev);
 
+
 module.exports = {
+    target: process.env.NODE_ENV === "development" ? "web" : "browserslist",
     context: path.resolve(__dirname, 'src'),
     mode: "development",
-    target: process.env.NODE_ENV === "development" ? "web" : "browserslist",
+
+    // target: 'web',
     entry: ['@babel/polyfill','./index.js'],
     output: {
         filename: filename('js'),
@@ -34,8 +38,8 @@ module.exports = {
     devServer: {
         port: 3000,
         hot: isDev,
-        quiet: false,
-        liveReload: isDev
+        // hmr: isDev,
+        // liveReload: true
     },
     plugins: [
         new CleanWebpackPlugin(),
@@ -66,8 +70,8 @@ module.exports = {
                     {
                         loader: MiniCssExtractPlugin.loader,
                         options: {
-                            hmr: isDev,
-                            reloadAll: true
+                            // hmr: isDev,
+                            // liveReload: true
                         }
                     },
                     "css-loader",
