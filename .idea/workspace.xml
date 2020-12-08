@@ -20,11 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57637a54-f3ca-40fa-a546-bc3b8420a6ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/exel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/formula.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/toolbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +47,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="webpack" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lFxWEWLNzruLH5Jd01yXPVwniv" />
@@ -80,7 +93,8 @@
       <workItem from="1607269153784" duration="600000" />
       <workItem from="1607270389632" duration="206000" />
       <workItem from="1607340101427" duration="143000" />
-      <workItem from="1607340313462" duration="10591000" />
+      <workItem from="1607340313462" duration="14260000" />
+      <workItem from="1607381696414" duration="11380000" />
     </task>
     <servers />
   </component>
@@ -108,9 +122,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607361005619" />
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607342710887">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1607419756436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607342710887" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1607419756436" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607386982049">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607386982049" />
   </component>
 </project>
