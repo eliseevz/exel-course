@@ -19,6 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="57637a54-f3ca-40fa-a546-bc3b8420a6ed" name="Default Changelist" comment="" />
+=======
     <list default="true" id="57637a54-f3ca-40fa-a546-bc3b8420a6ed" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/components/exel/Exel.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
@@ -38,6 +41,7 @@
       <change beforePath="$PROJECT_DIR$/src/module.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
+>>>>>>> a94ec97d803ea79eda1b6c3557d5df33b76ec5ff
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
