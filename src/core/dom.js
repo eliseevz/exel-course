@@ -27,9 +27,12 @@ export class Dom {
         this.$el.removeEventListener(eventType, callback)
     }
 
+
     findAll(selector) {
         return this.$el.querySelectorAll(selector)
     }
+
+
 
     append(node) {
         if (node instanceof Dom) {
@@ -42,6 +45,7 @@ export class Dom {
         }
         return this
     }
+
 
     css(styles = {}) {
         Object
@@ -58,6 +62,7 @@ export class Dom {
     getCoords() {
         return this.$el.getBoundingClientRect()
     }
+
 }
 
 export function $(selector) {

@@ -25,7 +25,10 @@
     border: 1px solid $border-color;
     background: #f8f9fa;
     border-top: none;
+
     position: relative;
+
+
   }
   .row-data{
     display: flex;
@@ -42,7 +45,10 @@
     border: 1px solid $border-color;
     border-top: none;
     border-left: none;
+
     position: relative;
+
+
   }
   .cell{
     min-width: 40px;
@@ -60,10 +66,15 @@
 
     &.selected{
       border: none;
+
       outline: 2px solid $primary-color;
+
+      outline: 2px solid #3c74ff;
+
       z-index: 2;
     }
   }
+
 
   .col-resize, .row-resize{
     position: absolute;
