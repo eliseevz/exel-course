@@ -14,6 +14,10 @@ const jsLoader = () => {
         {
             loader: "babel-loader",
             options: {
+                plugins: [
+                    "@babel/plugin-proposal-class-properties",
+                    {"loose": true}
+                    ],
                 presets: ['@babel/preset-env']
             }
         }
@@ -81,10 +85,6 @@ module.exports = {
                 use: [
                     {
                         loader: MiniCssExtractPlugin.loader,
-                        options: {
-                            // hmr: isDev,
-                            // liveReload: true
-                        }
                     },
                     "css-loader",
                     "sass-loader"
